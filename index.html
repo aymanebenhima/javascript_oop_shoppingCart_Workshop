@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Panier d'Achat</title>
+    <title>Panier d'Achat OOJ</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -15,18 +15,18 @@
         <main>
             <section id="product-list">
                 <h2>Liste des Produits</h2>
-                <!-- Les produits seront affichés ici -->
+                <div class="products">
+                    <!-- Les produits seront affichés ici dynamiquement -->
+                </div>
             </section>
 
             <section id="cart">
                 <h2>Votre Panier</h2>
-                <!-- Les items du panier seront affichés ici -->
-            </section>
-
-            <section id="controls">
-                <button id="add-item">Ajouter un Produit</button>
-                <button id="remove-item">Supprimer un Produit</button>
-                <button id="display-cart">Afficher le Panier</button>
+                <ul id="cart-items">
+                    <!-- Les items du panier seront affichés ici -->
+                </ul>
+                <h3>Total des Articles: <span id="total-items">0</span></h3>
+                <h3>Prix Total: <span id="total-price">0</span> €</h3>
             </section>
         </main>
 
